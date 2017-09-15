@@ -1,19 +1,22 @@
-## Introduction
+Checking whether an item is in a list is easy in Python.
 
-Add project description here. What will learners be making?
+```python
+search_item = "paper"
+items = ["rock", "paper", "scissors"]
 
-### What you will make
+if search_item in items:
+    print("Found it!")
+```
 
-Add something here to showcase here, for example:
+If the item is in the list, the message "Found it!" will be printed.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+You can also use a loop to continue executing some code until an item is in a given list. This is useful for validating input.
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+```python
+direction = ""
+while direction not in ["N", "S", "E", "W"]:
+    direction = input("Please enter a direction (N, S, E or W): ")
+print(direction)
+```
 
-### What you will learn
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+This loop will keep asking for a new direction until the user enters one that is in the list. Once they have entered a direction in the list, that direction will be printed.
