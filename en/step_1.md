@@ -1,4 +1,4 @@
-Checking whether an item is in a list is easy in Python.
+Checking whether an item is in a list is easy in Python, you can use the `in` keyword.
 
 ```python
 search_item = "paper"
@@ -10,7 +10,7 @@ if search_item in items:
 
 If the item is in the list, the message "Found it!" will be printed.
 
-You can also use a loop to continue executing some code until an item is in a given list. This is useful for validating input.
+You can also use a loop to continue executing some code until an item is in a given list. This is useful for validating input. Here we are using the opposite, `not in`.
 
 ```python
 direction = ""
