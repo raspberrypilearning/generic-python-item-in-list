@@ -1,6 +1,6 @@
-title: Checking if an item is in a list in Python
+title: Checking whether an item is in a list using Python
 hero_image: images/banner.png
-description: Check whether an item is in a list using Python
+description: How to check whether an item is in a list in Python
 original_url:
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 # possible values: 1, 2 or 3
