@@ -1,7 +1,7 @@
 ---
-title: Checking whether an item is in a list using Python
+title: Controleren of een item in een lijst staat met behulp van Python
 hero_image: images/banner.png
-description: How to check whether an item is in a list in Python
+description: Hoe te controleren of een item in een lijst in Python staat
 original_url:
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 #possible values: 1, 2 or 3
@@ -14,4 +14,4 @@ technologies: "python"
 site_areas:
 steps:
   - 
-    title: Introduction
+    title: Inleiding
