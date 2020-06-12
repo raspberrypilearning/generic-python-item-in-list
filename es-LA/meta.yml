@@ -1,0 +1,17 @@
+---
+title: Comprobando si un elemento está en una lista usando Python
+hero_image: images/banner.png
+description: Cómo comprobar si un elemento está en una lista en Python
+original_url:
+theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 1 #possible values: 1, 2 or 3
+listed: false
+ingredient: true
+copyedit: true
+curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: ""
+technologies: "python"
+site_areas:
+steps:
+  - 
+    title: Introducción
