@@ -1,20 +1,20 @@
-Checking whether an item is in a list is easy in Python: you can use the `in` keyword like in the example here. If the item is in the list, the message "Found it!" will be printed.
+Il est facile de vérifier si un élément se trouve dans une liste en Python : tu peux utiliser le mot-clé `in` comme dans l'exemple ci-dessous. Si l'élément est dans la liste, le message « Trouvé ! » s'affiche.
 
 ```python
-search_item = "paper"
-items = ["rock", "paper", "scissors"]
+element_a_chercher = "feuille"
+elements = ["pierre", "feuille", "ciseaux"]
 
-if search_item in items:
-    print("Found it!")
+if element_a_chercher in elements:
+    print("Trouvé !")
 ```
 
-You can also use a loop to continue executing a bit of code until an item is in a given list. This is useful for validating input. Below we are using the opposite of the `in` keyword: `not in`.
+Tu peux également utiliser une boucle pour continuer à exécuter un bout de code jusqu'à ce qu'un élément figure dans une liste donnée. Ceci est utile pour valider les données saisies. Dans l'exemple ci-dessous, nous utilisons l'opposé du mot-clé `in`  : `not in`.
 
 ```python
 direction = ""
-while direction not in ["N", "S", "E", "W"]:
-    direction = input("Please enter a direction (N, S, E or W): ")
+while direction not in ["N", "S", "E", "O"]:
+    direction = input("Veuillez entrer une direction (N, S, E ou O) : ")
 print(direction)
 ```
 
-This loop will keep asking for a direction until the user enters one that is in the list. Once they have entered one of the directions given as options, that direction will be printed.
+Cette boucle continuera à demander une direction jusqu'à ce que l'utilisateur en saisisse une qui se trouve dans la liste. Une fois que l'utilisateur aura saisi l'une des options proposées, cette direction s'affichera.
